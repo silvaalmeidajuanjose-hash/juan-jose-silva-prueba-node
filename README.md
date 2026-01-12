@@ -55,24 +55,8 @@ Este proyecto utiliza Sequelize como ORM. Las tablas serán generadas automátic
 
 ---
 
-## 5. Variables de Entorno
 
-Crear un archivo `.env` en la raíz del proyecto con:
-
-```
-DB_HOST=localhost
-DB_NAME=market
-DB_USER=root
-DB_PASSWORD=juankira0199
-DB_DIALECT=mysql
-PORT=3000
-```
-
-Modificar los valores según su configuración local.
-
----
-
-## 6. Ejecución del Proyecto
+## 5. Ejecución del Proyecto
 
 Modo desarrollo (si existe script dev):
 
@@ -94,7 +78,7 @@ http://localhost:3000
 
 ---
 
-## 7. Endpoints Implementados
+## 6. Endpoints Implementados
 
 1. Listar productos con stock por tienda  
    `getProductosConStock`
@@ -116,7 +100,7 @@ Donde `diaSemana` corresponde a: Lunes=0 ... Domingo=6
 http://localhost:3000/api/promociones/por-dia/1
 ---
 
-## 8. Tecnologías Utilizadas
+## 7. Tecnologías Utilizadas
 
 - Node.js
 - Express
@@ -125,13 +109,15 @@ http://localhost:3000/api/promociones/por-dia/1
 
 ---
 
-## 9. Opcional
+## 8. Opcional
 
 Scripts SQL de apoyo pueden ser incluidos si se requieren para cargar datos en tablas relacionadas.
 
+
+En una carpeta llamada db se encontrará el archivo  SQL con la base de datos. 
 ---
 
-## 10. Entrega
+## 9. Entrega
 
 Proyecto subido a repositorio público en GitHub y documentado para su ejecución local.
 
